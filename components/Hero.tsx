@@ -2,6 +2,7 @@
 
 import { Marquee } from "@devnomic/marquee";
 import DownloadBtns from "./Downloads/DownloadBtns";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -14,14 +15,22 @@ export default function Hero() {
               direction="up"
               reverse={false}
               pauseOnHover={false}
-              className="animate-marquee-up gap-[1rem] [--duration:20s]"
-              innerClassName="gap-[1rem] [--gap:1rem]"
+              className="animate-marquee-up [--duration:20s]"
+              innerClassName=""
             >
               {MockupsData1.map(({ src, alt }, index) => (
                 <div
                   key={index}
-                  className="mt-8 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100"
-                />
+                  className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
+                >
+                  <Image
+                    key={index}
+                    src={src}
+                    alt={alt}
+                    width={1000}
+                    height={1000}
+                  />
+                </div>
               ))}
             </Marquee>
           </div>
@@ -37,8 +46,16 @@ export default function Hero() {
               {MockupsData2.map(({ src, alt }, index) => (
                 <div
                   key={index}
-                  className="mt-8 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100"
-                />
+                  className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
+                >
+                  <Image
+                    key={index}
+                    src={src}
+                    alt={alt}
+                    width={1000}
+                    height={1000}
+                  />
+                </div>
               ))}
             </Marquee>
           </div>
@@ -65,29 +82,29 @@ export default function Hero() {
 
 const MockupsData1 = [
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Splash Screen",
   },
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Home Screen",
   },
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Cart Screen",
   },
 ];
 const MockupsData2 = [
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Splash Screen",
   },
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Home Screen",
   },
   {
-    src: "",
-    alt: "",
+    src: "/rwd-splash.jpg",
+    alt: "Cart Screen",
   },
 ];
