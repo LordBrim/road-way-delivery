@@ -37,8 +37,8 @@ type StepProps = {
 function Step({ number, title, desc, src, alt }: StepProps) {
   return (
     <div className="flex w-full max-w-[420px] flex-col gap-4 md:gap-16 md:[&:nth-of-type(2)]:mt-[100px] md:[&:nth-of-type(3)]:mt-[200px]">
-      <div className="relative w-full max-w-[420px] rounded-2xl bg-gray-500">
-        <div className="h-full w-full overflow-hidden shadow-lg">
+      <div className="relative w-full max-w-[420px] rounded-2xl bg-gray-500 shadow-lg">
+        <div className="h-full w-full overflow-hidden rounded-2xl">
           <Image src={src} alt={alt} width={1000} height={1000} />
         </div>
         <div className="-bottom-10 -left-10 hidden h-20 w-20 items-center justify-center rounded-t-full rounded-bl-full bg-accent-1 md:absolute md:flex">
