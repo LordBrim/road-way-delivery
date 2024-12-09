@@ -62,8 +62,6 @@ export default function Value() {
               height={1000}
             />
           </div>
-          {/* <div className="absolute left-0 top-0 z-20 h-[600px] w-[320px] -translate-x-[45%] translate-y-[20%] rounded-[50px] border-8 border-black bg-gray-100" />
-          <div className="z-10 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100" /> */}
         </div>
       </div>
     </div>
