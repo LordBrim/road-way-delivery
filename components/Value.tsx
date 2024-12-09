@@ -1,5 +1,6 @@
 import { FaCheckCircle } from "react-icons/fa";
 import DownloadBtns from "./Downloads/DownloadBtns";
+import Image from "next/image";
 
 export default function Value() {
   const size = 20;
@@ -45,8 +46,24 @@ export default function Value() {
           <DownloadBtns />
         </div>
         <div className="relative mb-[100px] flex w-[570px] flex-col items-center justify-center">
-          <div className="absolute left-0 top-0 z-20 h-[600px] w-[320px] -translate-x-[45%] translate-y-[20%] rounded-[50px] border-8 border-black bg-gray-100" />
-          <div className="z-10 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100" />
+          <div className="absolute left-0 top-0 z-20 h-[673px] w-[320px] -translate-x-[45%] translate-y-[10%] -rotate-6 overflow-hidden rounded-[40px] border-8 border-black bg-gray-100">
+            <Image
+              src={"/rwd-splash.jpg"}
+              alt={"Splash Screen"}
+              width={1000}
+              height={1000}
+            />
+          </div>
+          <div className="z-10 h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100">
+            <Image
+              src={"/rwd-splash.jpg"}
+              alt={"Splash Screen"}
+              width={1000}
+              height={1000}
+            />
+          </div>
+          {/* <div className="absolute left-0 top-0 z-20 h-[600px] w-[320px] -translate-x-[45%] translate-y-[20%] rounded-[50px] border-8 border-black bg-gray-100" />
+          <div className="z-10 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100" /> */}
         </div>
       </div>
     </div>
