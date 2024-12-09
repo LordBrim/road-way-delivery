@@ -1,28 +1,25 @@
 "use client";
 
-import Marquee from "react-easy-marquee";
+import { Marquee } from "@devnomic/marquee";
 import DownloadBtns from "./Downloads/DownloadBtns";
 
 export default function Hero() {
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <div className="spacing-horizontal md:spacing-vertical flex h-full w-full max-w-center flex-col items-center justify-between overflow-hidden px-0 md:flex-row">
+      <div className="spacing-horizontal flex h-full w-full max-w-center flex-col items-center justify-between overflow-hidden px-0 md:flex-row">
         <div className="flex flex-row items-center justify-center gap-8">
           <div className="h-full max-h-[1000px] w-[320px]">
             <Marquee
-              duration={20000}
-              background="transparent"
-              height="1500px"
-              width="auto"
-              axis="Y"
-              align="center"
-              pauseOnHover={false}
+              fade={false}
+              direction="up"
               reverse={false}
-              className="flex flex-col gap-8"
+              pauseOnHover={false}
+              className="animate-marquee-up gap-[1rem] [--duration:20s]"
+              innerClassName="gap-[1rem] [--gap:1rem]"
             >
-              {MockupsData1.map(({ src, alt }, id) => (
+              {MockupsData1.map(({ src, alt }, index) => (
                 <div
-                  key={id}
+                  key={index}
                   className="mt-8 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100"
                 />
               ))}
@@ -30,21 +27,18 @@ export default function Hero() {
           </div>
           <div className="h-full max-h-[1000px] w-[320px]">
             <Marquee
-              duration={20000}
-              background="transparent"
-              height="1500px"
-              width="auto"
-              axis="Y"
-              align="center"
+              fade={false}
+              direction="up"
+              reverse={false}
               pauseOnHover={false}
-              reverse={true}
-              className="flex flex-col gap-8"
+              className="animate-marquee-up gap-[1rem] [--duration:40s]"
+              innerClassName="gap-[1rem] [--gap:1rem]"
             >
-              {MockupsData2.map(({ src, alt }, id) => (
+              {MockupsData2.map(({ src, alt }, index) => (
                 <div
-                  key={id}
+                  key={index}
                   className="mt-8 h-[600px] w-[320px] rounded-[50px] border-8 border-black bg-gray-100"
-                ></div>
+                />
               ))}
             </Marquee>
           </div>

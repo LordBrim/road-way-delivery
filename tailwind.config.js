@@ -22,6 +22,15 @@ module.exports = {
         highway: "url(/highway-dark_compressed.jpg)",
         truck: "url(/hero-truck_dark.jpg)",
       },
+      keyframes: {
+        "marquee-up": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
+      },
+      animation: {
+        "marquee-up": "marquee-up var(--duration, 40s) linear infinite",
+      },
     },
   },
   plugins: [],
