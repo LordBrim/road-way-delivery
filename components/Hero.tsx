@@ -23,13 +23,7 @@ export default function Hero() {
                   key={index}
                   className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
                 >
-                  <Image
-                    key={index}
-                    src={src}
-                    alt={alt}
-                    width={1000}
-                    height={1000}
-                  />
+                  <Image src={src} alt={alt} width={1000} height={1000} />
                 </div>
               ))}
             </Marquee>
@@ -48,13 +42,7 @@ export default function Hero() {
                   key={index}
                   className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
                 >
-                  <Image
-                    key={index}
-                    src={src}
-                    alt={alt}
-                    width={1000}
-                    height={1000}
-                  />
+                  <Image src={src} alt={alt} width={1000} height={1000} />
                 </div>
               ))}
             </Marquee>
