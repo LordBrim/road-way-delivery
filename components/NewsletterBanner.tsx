@@ -36,12 +36,12 @@ export default function NewsletterBanner() {
                 name="email"
                 placeholder="Enter your email..."
                 value={email}
-                className="inputField w-full max-w-[480px] focus:placeholder:italic"
+                className="w-full max-w-[480px] rounded-full px-6 py-2 text-base font-medium focus:placeholder:italic"
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button
                 type="button"
-                className="h-full w-full max-w-[200px] rounded-lg bg-accent-1 px-12 text-base font-bold text-white"
+                className="rounded-full bg-accent-1 px-6 py-2 text-center text-base font-medium text-white"
               >
                 Join Now
               </button>
