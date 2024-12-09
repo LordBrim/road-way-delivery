@@ -96,7 +96,7 @@ export default function FAQ() {
   );
 }
 
-const AccordionItem = ({ header, ...rest }) => (
+const AccordionItem = ({ header, ...rest }: any) => (
   <Item
     {...rest}
     header={({ state: { isEnter } }) => (
