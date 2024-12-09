@@ -115,9 +115,9 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
   <div className="flex w-full flex-col gap-4 md:max-w-none">
     <h1 className="text-sm font-bold uppercase">{title}</h1>
     <div className="flex flex-col gap-2">
-      {links.map(({ href, title }, id) => (
+      {links.map(({ href, title }, index) => (
         <a
-          key={id}
+          key={index}
           href={href}
           target="_blank"
           className="text-xs font-medium text-gray-500 visited:text-accent-1 hover:text-accent-1 hover:underline"
