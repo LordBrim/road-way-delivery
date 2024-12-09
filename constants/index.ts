@@ -91,7 +91,6 @@ export const Testimonials = [
 
 export const AboutContent = [
   {
-    id: 1,
     image: "/entrepreneur_compressed.jpg",
     alt: "Entrepreneur In Meeting",
     title: "Know About Us",
@@ -99,7 +98,6 @@ export const AboutContent = [
       "At Road Way Delivery, we provide efficient and reliable roadway delivery solutions. With years of industry expertise, we ensure safe and timely transportation of your packages. From small parcels to fragile goods, our skilled drivers and logistics experts handle it all. Our advanced tracking systems offer real-time updates, giving you peace of mind. Choose Road Way Delivery for professionalism, integrity, and exceptional customer service. Experience the difference our reliable and cost-effective services can make for your business.",
   },
   {
-    id: 2,
     image: "/warehouse_compressed.jpg",
     alt: "A Truck Warehouse Full Of Trucks",
     title: "Our Mission",
@@ -107,7 +105,6 @@ export const AboutContent = [
       "Road Way Delivery aims to exceed customer expectations with exceptional roadway delivery services. Our priority is reliability, ensuring on-time and safe deliveries while offering personalized support tailored to unique needs. With advanced tracking systems, we provide real-time updates, ensuring complete shipment visibility. We are committed to sustainability, minimizing environmental impact, and fostering seamless operations and growth through collaboration with customers, suppliers, and partners. Our dedication to excellence, integrity, and continuous improvement sets us apart as a trusted transportation partner.",
   },
   {
-    id: 3,
     image: "/trucks_compressed.jpg",
     alt: "A Line Of Trucks Taken Before Departure",
     title: "Our Vision",
