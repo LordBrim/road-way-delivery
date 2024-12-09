@@ -23,8 +23,13 @@ export default function Services() {
         </div>
 
         <div className="group/cards grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-12">
-          {ServicesData.map(({ icon, title, description }, id) => (
-            <Card icon={icon} title={title} description={description} />
+          {ServicesData.map(({ icon, title, description }, index) => (
+            <Card
+              key={index}
+              icon={icon}
+              title={title}
+              description={description}
+            />
           ))}
         </div>
       </div>
