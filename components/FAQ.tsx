@@ -49,7 +49,7 @@ export default function FAQ() {
               </button>
             ))}
           </div>
-          <div className="hidden h-full w-[1px] rounded-full bg-gray-200 md:flex" />
+          <div className="hidden h-[550px] w-[1px] rounded-full bg-gray-200 md:flex" />
 
           {category === "General" && (
             <Accordion allowMultiple={false} transition transitionTimeout={500}>
