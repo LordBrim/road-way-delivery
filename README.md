@@ -2,6 +2,10 @@
 
 Roadway Delivery Service is a leading logistics company revolutionizing the industry with fast, reliable road transportation solutions. We specialize in secure, on-time deliveries for customers and businesses across local and regional destinations.
 
+
+
+
+
 ### Features
 
 - Static pages
@@ -48,3 +52,6 @@ Roadway Delivery Service is a leading logistics company revolutionizing the indu
 ![image](https://github.com/user-attachments/assets/0e48fbb6-721f-47d8-bee8-f47890a0aa09)
 ![image](https://github.com/user-attachments/assets/f0506cca-70ff-42f0-b0d0-ba10b9748dd4)
 
+## No License
+
+This project is not licensed, and all rights are reserved by the author. You may not copy, modify, distribute, or use this project without explicit permission.
