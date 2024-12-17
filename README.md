@@ -12,9 +12,27 @@ My goal was to simulate a professional work environment.
 - Fast loading
 - Viewport Responsive
 
+## If I Had More Time I Would Change These
+
+- <strike>I would redesign the landing page to have a more rounded modern look.</strike>
+- Add mockups where they can be placed.
+- Create a UI Kit specifically for this project.
+- Use [Storybook](https://storybook.js.org/) to streamline the development process of the components.
+
 ## I Had More Time
 
 - I redesigned the landing page to have a more rounded modern look.
+
+<details><summary>New Figma Design</summary><br/>
+  
+  ![RWD](https://github.com/user-attachments/assets/3f9e6ff7-b46c-4208-86a2-1b949e1560ea)
+
+</details>
+<details><summary>Old Landing Page</summary><br/>
+  
+  ![352994835-e57a7bbd-5a0b-4a58-9e65-999657cff35b (1)](https://github.com/user-attachments/assets/c62117bd-1af3-4df4-9ae2-259d30104e01)
+  
+</details>
 
 <!--
 ## Pages
