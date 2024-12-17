@@ -1,11 +1,3 @@
-## Road Way Delivery Landing Page
-
-Roadway Delivery Service is a leading logistics company revolutionizing the industry with fast, reliable road transportation solutions. We specialize in secure, on-time deliveries for customers and businesses across local and regional destinations.
-
-
-
-
-
 ### Features
 
 - Static pages
