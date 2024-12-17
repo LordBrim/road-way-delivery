@@ -12,7 +12,9 @@ My goal was to simulate a professional work environment.
 - Fast loading
 - Viewport Responsive
 
+# I Had More Time
 
+- I redesigned the landing page to have a more rounded modern look.
 
 <!--
 ## Pages
