@@ -4,13 +4,12 @@ My goal was to simulate a professional work environment.
 
 - I built this landing page using [Next.js](https://nextjs.org/docs) and [Tailwind](https://tailwindcss.com/docs/installation) for the styling.
 - I used Figma to design this landing page to practice creating components and planning out the layout of a landing page.
+- To optimize the page using Lighthouse.
+<details><summary>Lighthouse Results</summary><br/>
+  
+  ![image](https://github.com/user-attachments/assets/d824607e-eaa5-4fac-9df5-4c8e74be27f3)
 
-### Features
-
-- Static pages
-- Multipage routing
-- Fast loading
-- Viewport Responsive
+</details>
 
 ## If I Had More Time I Would Change These
 
