@@ -1,9 +1,18 @@
+## My Goal With This Project
+
+My goal was to simulate a professional work environment.
+
+- I built this app using [Next.js](https://nextjs.org/docs) and [Tailwind](https://tailwindcss.com/docs/installation) for the styling.
+- I used Figma to design this app to practice creating components and planning out the layout of a landing page.
+
 ### Features
 
 - Static pages
 - Multipage routing
 - Fast loading
 - Viewport Responsive
+
+
 
 <!--
 ## Pages
