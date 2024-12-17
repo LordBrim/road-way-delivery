@@ -2,8 +2,8 @@
 
 My goal was to simulate a professional work environment.
 
-- I built this app using [Next.js](https://nextjs.org/docs) and [Tailwind](https://tailwindcss.com/docs/installation) for the styling.
-- I used Figma to design this app to practice creating components and planning out the layout of a landing page.
+- I built this landing page using [Next.js](https://nextjs.org/docs) and [Tailwind](https://tailwindcss.com/docs/installation) for the styling.
+- I used Figma to design this landing page to practice creating components and planning out the layout of a landing page.
 
 ### Features
 
@@ -17,7 +17,8 @@ My goal was to simulate a professional work environment.
 - <strike>I would redesign the landing page to have a more rounded modern look.</strike>
 - Add mockups where they can be placed.
 - Create a UI Kit specifically for this project.
-- Use [Storybook](https://storybook.js.org/) to streamline the development process of the components.
+- Use [Storybook](https://storybook.js.org/) to streamline the development process of the design components.
+- Make this landing page into an actual delivery application.
 
 ## I Had More Time
 
