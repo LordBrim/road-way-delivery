@@ -13,14 +13,6 @@ Roadway Delivery Service is a leading logistics company revolutionizing the indu
 - Fast loading
 - Viewport Responsive
 
-## Technologies Used
-
-- Next.Js
-- Typescript
-- Tailwind
-- CSS
-- HTML
-
 <!--
 ## Pages
 
