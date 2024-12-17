@@ -21,6 +21,7 @@ Roadway Delivery Service is a leading logistics company revolutionizing the indu
 - CSS
 - HTML
 
+<!--
 ## Pages
 
 ### Home Page
@@ -51,6 +52,8 @@ Roadway Delivery Service is a leading logistics company revolutionizing the indu
 
 ![image](https://github.com/user-attachments/assets/0e48fbb6-721f-47d8-bee8-f47890a0aa09)
 ![image](https://github.com/user-attachments/assets/f0506cca-70ff-42f0-b0d0-ba10b9748dd4)
+
+-->
 
 ## No License
 
