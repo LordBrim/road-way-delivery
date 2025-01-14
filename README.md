@@ -1,3 +1,7 @@
+## <img src="https://github.com/user-attachments/assets/9659b3f8-1507-4860-b6b8-39f7b5a4d4f8" alt="drawing" width="30"/> Lighthouse Score
+
+![image](https://github.com/user-attachments/assets/5636fa64-0d86-4cb6-89c0-615a72468a1a)
+
 ## What Is Roadway Delivery?
 
 Roadway Delivery is mock landing page for a delivery service, a leading logistics company transforming the transportation industry with fast, secure, and reliable road delivery solutions.
