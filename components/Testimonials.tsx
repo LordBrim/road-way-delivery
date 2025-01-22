@@ -12,7 +12,9 @@ export default function Testimonials() {
   return (
     <div id="testimonials" className="flex w-full items-center justify-center">
       <div className="spacing-vertical md:spacing-horizontal flex max-w-center flex-col items-center justify-center gap-8 overflow-hidden md:gap-24">
-        <h1 className="text-5xl font-bold">Get Your Package Delivered Now!</h1>
+        <h1 className="px-3 text-center text-4xl font-bold">
+          Get Your Package Delivered Now!
+        </h1>
 
         <div className="flex flex-row flex-wrap items-center justify-center gap-10 md:flex-nowrap md:gap-40">
           {NumbersData.map(({ end, name }, id) => (
@@ -21,7 +23,7 @@ export default function Testimonials() {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-12">
-          <p className="text-xl font-bold capitalize">
+          <p className="px-3 text-center text-xl font-bold capitalize">
             Register now and experience seamless, dependable delivery services.
           </p>
           <DownloadBtns />
