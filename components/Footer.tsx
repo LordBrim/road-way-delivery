@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Icon from "@svgr-iconkit/entypo";
 import { FooterContent, FooterLinksData } from "@/constants";
+import Icon from "@svgr-iconkit/entypo";
+import Image from "next/image";
 
 export default function Footer() {
   return (
