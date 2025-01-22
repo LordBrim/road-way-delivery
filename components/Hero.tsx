@@ -7,7 +7,7 @@ import DownloadBtns from "./Downloads/DownloadBtns";
 export default function Hero() {
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <div className="spacing-horizontal flex h-full w-full max-w-center flex-col items-center justify-between gap-20 overflow-hidden px-0 md:flex-row">
+      <div className="spacing-horizontal flex h-full w-full max-w-center flex-col items-center justify-between gap-10 overflow-hidden px-0 md:flex-row md:gap-20">
         <div className="order-2 flex flex-row items-center justify-center gap-8 md:order-1">
           <div className="h-full max-h-[400px] w-[160px] md:max-h-[1000px] md:w-[320px]">
             <Marquee
