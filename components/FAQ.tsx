@@ -28,7 +28,7 @@ export default function FAQ() {
           </p>
         </div>
         <div className="flex flex-col gap-12 md:gap-40 lg:flex-row">
-          <div className="flex flex-row flex-wrap justify-center gap-4 md:flex-col md:gap-24">
+          <div className="flex flex-row flex-wrap justify-center gap-6 md:flex-col md:gap-24">
             {Categories.map(({ title, icon }, id) => (
               <button
                 key={id}
