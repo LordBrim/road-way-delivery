@@ -1,10 +1,9 @@
+import FAQ from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import PromotionalBanner from "@/components/PromotionalBanner";
-import Testimonials from "@/components/Testimonials";
-import Steps from "@/components/Steps";
-import FAQ from "@/components/FAQ";
-import Value from "@/components/Value";
 import Services from "@/components/Services";
+import Testimonials from "@/components/Testimonials";
+import Value from "@/components/Value";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <PromotionalBanner />
       <Services />
-      <Steps />
       <Value />
       <Testimonials />
       <FAQ />
