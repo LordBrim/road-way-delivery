@@ -20,21 +20,21 @@ export default function Value() {
               logistics and providing instant access to all your critical data.
             </p>
             <div className="">
-              <div className="flex w-full max-w-[510px] flex-row items-center gap-2">
+              <div className="flex w-full max-w-[510px] flex-row gap-2">
                 <FaCheckCircle size={size} className="text-accent-1" />
                 <p className="">
                   Schedule and monitor deliveries from anywhere
                 </p>
               </div>
-              <div className="flex w-full max-w-[510px] flex-row items-center gap-2">
+              <div className="flex w-full max-w-[510px] flex-row gap-2">
                 <FaCheckCircle size={size} className="text-accent-1" />
                 <p className=""> Get instant pricing and real-time tracking </p>
               </div>
-              <div className="flex w-full max-w-[510px] flex-row items-center gap-2">
+              <div className="flex w-full max-w-[510px] flex-row gap-2">
                 <FaCheckCircle size={size} className="text-accent-1" />
                 <p className=""> Review delivery history and performance</p>
               </div>
-              <div className="flex w-full max-w-[510px] flex-row items-center gap-2">
+              <div className="flex w-full max-w-[510px] flex-row gap-2">
                 <FaCheckCircle size={size} className="text-accent-1" />
                 <p className="">
                   {" "}
