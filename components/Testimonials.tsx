@@ -102,7 +102,9 @@ function Card({ review, residence, client, avatar, alt }: CardProps) {
           </div>
         </div>
       </div>
-      <p className="flex items-center text-xs text-black">{review}</p>
+      <p className="text-pretty flex items-center text-xs text-black">
+        {review}
+      </p>
     </div>
   );
 }
