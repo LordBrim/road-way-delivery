@@ -27,16 +27,32 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
               <h1 className="text-sm font-bold capitalize">Watch The Road!</h1>
               <div className="flex flex-row gap-2">
-                <a href="#facebook" className="h-8 w-8 text-accent-1">
+                <a
+                  href="#facebook"
+                  aria-label="Go to our RWD Facebook"
+                  className="h-8 w-8 text-accent-1"
+                >
                   <Icon name="facebook-with-circle" />
                 </a>
-                <a href="#youtube" className="h-8 w-8 text-accent-1">
+                <a
+                  href="#youtube"
+                  aria-label="Go to our RWD YouTube"
+                  className="h-8 w-8 text-accent-1"
+                >
                   <Icon name="youtube-with-circle" />
                 </a>
-                <a href="#twitter" className="h-8 w-8 text-accent-1">
+                <a
+                  href="#twitter"
+                  aria-label="Go to our RWD Twitter"
+                  className="h-8 w-8 text-accent-1"
+                >
                   <Icon name="twitter-with-circle" />
                 </a>
-                <a href="#instagram" className="h-8 w-8 text-accent-1">
+                <a
+                  href="#instagram"
+                  aria-label="Go to our RWD Instagram"
+                  className="h-8 w-8 text-accent-1"
+                >
                   <Icon name="instagram-with-circle" />
                 </a>
               </div>
