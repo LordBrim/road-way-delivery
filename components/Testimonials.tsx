@@ -14,7 +14,7 @@ export default function Testimonials() {
       <div className="spacing-vertical md:spacing-horizontal flex max-w-center flex-col items-center justify-center gap-24 overflow-hidden">
         <h1 className="text-5xl font-bold">Get Your Package Delivered Now!</h1>
 
-        <div className="flex flex-row gap-40">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-10 md:flex-nowrap md:gap-40">
           {NumbersData.map(({ end, name }, id) => (
             <Numbers key={id} end={end} name={name} />
           ))}
@@ -112,11 +112,11 @@ type NumbersProps = {
 
 function Numbers({ end, name }: NumbersProps) {
   return (
-    <div className="flex flex-col items-center justify-center gap-6">
+    <div className="flex w-40 flex-col items-center justify-center gap-6">
       <div className="flex flex-row items-start justify-center">
         <div className="invisible h-6 w-6" />
         <CountUp
-          className="text-5xl font-bold text-accent-1"
+          className="text-3xl font-bold text-accent-1 md:text-5xl"
           start={0}
           end={end}
           duration={5}
