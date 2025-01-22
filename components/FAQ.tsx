@@ -116,7 +116,7 @@ const AccordionItem = ({ header, ...rest }: any) => (
     }
     buttonProps={{
       className: ({ isEnter }) =>
-        `flex md:min-w-[900px] text-left p-6 text-lg font-bold ${isEnter && "text-primary-1"}`,
+        `flex md:min-w-[900px] text-left p-6 text-lg font-bold ${isEnter && "text-accent-1"}`,
     }}
     contentProps={{
       className: "transition-height duration-500 ease-out",

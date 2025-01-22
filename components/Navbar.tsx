@@ -60,7 +60,7 @@ export default function Navbar() {
             </button>
             <button
               type="button"
-              className="rounded-full bg-primary-1 px-6 py-2 text-center text-base font-medium text-white"
+              className="rounded-full bg-accent-1 px-6 py-2 text-center text-base font-medium text-white"
             >
               Sign Up
             </button>
