@@ -1,10 +1,10 @@
 "use client";
 
 import { NavLinksData } from "@/constants";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
-import { useState, useEffect } from "react";
-import Image from "next/image";
 
 export default function Navbar() {
   const sizeIcon = 35;
@@ -60,7 +60,7 @@ export default function Navbar() {
             </button>
             <button
               type="button"
-              className="rounded-full bg-accent-1 px-6 py-2 text-center text-base font-medium text-white"
+              className="rounded-full bg-primary-1 px-6 py-2 text-center text-base font-medium text-white"
             >
               Sign Up
             </button>
