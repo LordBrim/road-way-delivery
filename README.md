@@ -29,7 +29,7 @@ My goal was to simulate a professional work environment.
 
 <details><summary>New Figma Design</summary><br/>
   
-  ![RWD](https://github.com/user-attachments/assets/3f9e6ff7-b46c-4208-86a2-1b949e1560ea)
+  ![RWD](https://github.com/user-attachments/assets/0e291b1a-b31c-4aec-a003-2bfc209d7a7c)
 
 </details>
 <details><summary>Old Landing Page</summary><br/>
