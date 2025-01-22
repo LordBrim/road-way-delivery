@@ -7,7 +7,7 @@ export default function Value() {
 
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <div className="spacing-horizontal spacing-vertical flex w-full max-w-center flex-col items-center justify-between md:flex-row">
+      <div className="spacing-horizontal spacing-vertical flex w-full max-w-center flex-col items-center justify-between gap-20 md:flex-row">
         <div className="flex w-full max-w-[730px] flex-col gap-12">
           <h1 className="text-5xl font-bold">
             Your <span className="text-accent-1">All-in-One Solution</span>
