@@ -20,7 +20,7 @@ export default function DownloadBtns() {
             src={"/Icons/playstore-svgrepo-com.svg"}
             width={20}
             height={20}
-            alt="Play Store"
+            alt="Play Store Logo"
           />
         </div>
       </button>
@@ -34,7 +34,7 @@ export default function DownloadBtns() {
             src={"/Icons/app-store-svgrepo-com.svg"}
             width={24}
             height={24}
-            alt="App Store"
+            alt="App Store Logo"
           />
         </div>
       </button>
