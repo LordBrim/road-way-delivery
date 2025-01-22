@@ -31,7 +31,7 @@ export default function Testimonials() {
             play={true}
             direction={"left"}
             loop={0}
-            pauseOnHover={false}
+            pauseOnHover={true}
             speed={30}
             autoFill={true}
             style={{ overflow: "visible" }}
@@ -53,7 +53,7 @@ export default function Testimonials() {
             play={true}
             direction={"right"}
             loop={0}
-            pauseOnHover={false}
+            pauseOnHover={true}
             speed={30}
             autoFill={true}
             style={{ overflow: "visible" }}
