@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="flex w-full flex-col items-center justify-center">
       <div className="spacing-horizontal flex h-full w-full max-w-center flex-col items-center justify-between gap-20 overflow-hidden px-0 md:flex-row">
         <div className="order-2 flex flex-row items-center justify-center gap-8 md:order-1">
-          <div className="h-full max-h-[500px] w-[160px] md:max-h-[1000px] md:w-[320px]">
+          <div className="h-full max-h-[400px] w-[160px] md:max-h-[1000px] md:w-[320px]">
             <Marquee
               fade={false}
               direction="up"
@@ -28,7 +28,7 @@ export default function Hero() {
               ))}
             </Marquee>
           </div>
-          <div className="h-full max-h-[500px] w-[160px] md:max-h-[1000px] md:w-[320px]">
+          <div className="h-full max-h-[400px] w-[160px] md:max-h-[1000px] md:w-[320px]">
             <Marquee
               fade={false}
               direction="up"
