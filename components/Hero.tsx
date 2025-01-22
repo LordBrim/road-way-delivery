@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="flex w-full flex-col items-center justify-center">
       <div className="spacing-horizontal flex h-full w-full max-w-center flex-col items-center justify-between gap-20 overflow-hidden px-0 md:flex-row">
         <div className="flex flex-row items-center justify-center gap-8">
-          <div className="h-full max-h-[1000px] w-[320px]">
+          <div className="h-full max-h-[1000px] w-[160px] md:w-[320px]">
             <Marquee
               fade={false}
               direction="up"
@@ -21,14 +21,14 @@ export default function Hero() {
               {MockupsData1.map(({ src, alt }, index) => (
                 <div
                   key={index}
-                  className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
+                  className="h-[335px] w-[160px] overflow-hidden rounded-2xl border-2 border-black bg-gray-100 md:h-[673px] md:w-[320px] md:rounded-[40px] md:border-8"
                 >
                   <Image src={src} alt={alt} width={1000} height={1000} />
                 </div>
               ))}
             </Marquee>
           </div>
-          <div className="h-full max-h-[1000px] w-[320px]">
+          <div className="h-full max-h-[1000px] w-[160px] md:w-[320px]">
             <Marquee
               fade={false}
               direction="up"
@@ -40,7 +40,7 @@ export default function Hero() {
               {MockupsData2.map(({ src, alt }, index) => (
                 <div
                   key={index}
-                  className="h-[673px] w-[320px] overflow-hidden rounded-[40px] border-8 border-black bg-gray-100"
+                  className="h-[335px] w-[160px] overflow-hidden rounded-2xl border-2 border-black bg-gray-100 md:h-[673px] md:w-[320px] md:rounded-[40px] md:border-8"
                 >
                   <Image src={src} alt={alt} width={1000} height={1000} />
                 </div>
