@@ -87,7 +87,7 @@ type CardProps = {
 
 function Card({ review, residence, client, avatar, alt }: CardProps) {
   return (
-    <div className="flex aspect-video w-full flex-wrap gap-4 rounded-xl p-8 shadow-xl transition duration-100 sm:w-[350px]">
+    <div className="flex aspect-video w-80 flex-wrap gap-4 rounded-xl p-8 shadow-xl transition duration-100 sm:w-[350px]">
       <div className="flex w-full flex-row items-center justify-between sm:w-[350px]">
         <BiMessageSquareDetail size={40} className="text-accent-1" />
         <div className="flex flex-row items-center">
