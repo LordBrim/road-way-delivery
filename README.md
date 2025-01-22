@@ -19,8 +19,6 @@ My goal was to simulate a professional work environment.
 
 - <strike>I would redesign the landing page to have a more rounded modern look.</strike>
 - Add mockups where they can be placed.
-- Create a UI Kit specifically for this project.
-- Use [Storybook](https://storybook.js.org/) to streamline the development process of the design components.
 - Make this landing page into an actual delivery application.
 
 ## I Had More Time
