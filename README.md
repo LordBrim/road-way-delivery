@@ -22,6 +22,8 @@ My goal was to simulate a professional work environment.
 - Add animations to content
 - Attain a Lighthouse score of 100 for every criteria
 - Make this landing page into an actual delivery application.
+- Apply SEO principles to increase search visibility
+- Readd routing to other pages
 
 ## I Had More Time
 
